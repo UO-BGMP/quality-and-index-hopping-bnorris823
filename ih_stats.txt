@@ -1,0 +1,6 @@
+Total number of reads: 363246735
+Number of undetermined reads: 30783962
+Number of index swapped reads: 707740
+Number of correct index reads: 331755033
+Percentage of reads swapped: 0.19483726398807136
+Percentage of correct index reads: 91.33049275721639
