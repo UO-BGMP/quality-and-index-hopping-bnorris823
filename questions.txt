@@ -1,0 +1,16 @@
+1b) A good quality cutoff for the index reads would be about 30. The plots show that the
+lowest average bp positions are the first two bps. These average out to just above 30. Trimming
+to 30 would get rid of most of the bad average reads due to the first two positions.
+
+1c) grep -A 1 "^@" /projects/bgmp/2017_sequencing/1294_S1_L008_R2_001.fastq | grep -v "^@" |
+ grep -v "^-" | grep "N" | wc -l
+
+number of Ns: 3976613
+
+1d) The average quality score per read shows that the quality is really spread out, although 
+there are a higher number of high quality reads compared to low quality.
+
+2a) see ih_output_table.txt
+
+2b) see ih_stats.txt
+
